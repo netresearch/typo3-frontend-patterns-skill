@@ -1,0 +1,14 @@
+{
+  "name": "typo3-frontend-patterns",
+  "version": "1.0.0",
+  "description": "Reusable frontend patterns for TYPO3 sitepackages",
+  "repository": "https://github.com/netresearch/typo3-frontend-patterns-skill",
+  "license": "MIT",
+  "author": {
+    "name": "Netresearch DTT GmbH",
+    "url": "https://www.netresearch.de"
+  },
+  "skills": [
+    "./skills/typo3-frontend-patterns"
+  ]
+}

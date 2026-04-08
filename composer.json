@@ -1,0 +1,9 @@
+{
+  "name": "netresearch/typo3-frontend-patterns-skill",
+  "description": "Reusable frontend patterns for TYPO3 sitepackages",
+  "type": "ai-agent-skill",
+  "license": "MIT",
+  "require": {
+    "netresearch/composer-agent-skill-plugin": "*"
+  }
+}

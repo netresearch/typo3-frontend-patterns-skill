@@ -23,7 +23,6 @@ page.10.dataProcessing {
 ```html
 <!-- PageView/Partials/Header/LanguageSwitcher.html -->
 <html xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers"
-      xmlns:vendor="http://typo3.org/ns/Vendor/MySitepackage/ViewHelpers"
       data-namespace-uri-known-prefixed-attribute="true">
 
 <f:if condition="{languageNavigation -> f:count()} > 1">

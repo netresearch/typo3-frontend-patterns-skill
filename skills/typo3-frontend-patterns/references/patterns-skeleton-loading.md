@@ -165,7 +165,7 @@ export async function loadContent(
         }
         const error = document.createElement('p');
         error.className = 'text-danger';
-        error.textContent = 'Inhalt konnte nicht geladen werden.';
+        error.textContent = 'Content could not be loaded.';
         container.appendChild(error);
     } finally {
         container.removeAttribute('aria-busy');

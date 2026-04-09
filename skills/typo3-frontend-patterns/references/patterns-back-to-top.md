@@ -49,7 +49,6 @@ export function initBackToTop(): void {
 ```html
 <!-- PageView/Partials/BackToTop.html -->
 <html xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers"
-      xmlns:vendor="http://typo3.org/ns/Vendor/MySitepackage/ViewHelpers"
       data-namespace-uri-known-prefixed-attribute="true">
 
 <button type="button"

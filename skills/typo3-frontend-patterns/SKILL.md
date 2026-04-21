@@ -1,11 +1,13 @@
 ---
 name: typo3-frontend-patterns
-description: "Reusable frontend patterns for TYPO3 sitepackages: sticky header, lazy loading, breadcrumb, language switcher, animations, scroll-to-anchor, skeleton loading, toast notifications, back-to-top. Use when implementing common UI components in TYPO3 v13+ projects with Fluid, TypeScript, and SCSS."
+description: "Reusable frontend patterns for TYPO3 sitepackages (v13/v14 LTS; v14 removes core asset concat/compression #108055 so external build tool required — see [typo3-vite-skill](https://github.com/netresearch/typo3-vite-skill)): sticky header, lazy loading, breadcrumb, language switcher, animations, scroll-to-anchor, skeleton loading, toast notifications, back-to-top. Use when implementing common UI components in TYPO3 v13+/v14 projects with Fluid 4/5, TypeScript, and SCSS. Triggers: Fluid 5 strict-typed VHs, Camino theme, native dialog modal."
 ---
 
 # TYPO3 Frontend Patterns
 
-Reusable implementation patterns for TYPO3 v13+ sitepackage development. Each pattern provides a complete implementation with Fluid template, TypeScript plugin, SCSS partial, and accessibility considerations.
+Reusable implementation patterns for TYPO3 v13 and **v14.3 LTS** sitepackage development. Each pattern provides a complete implementation with Fluid template, TypeScript plugin, SCSS partial, and accessibility considerations.
+
+> **v14 heads-up**: the core no longer concatenates or compresses frontend CSS/JS (Breaking [#108055](https://docs.typo3.org/c/typo3/cms-core/main/en-us/Changelog/14.0/Breaking-108055-RemovedFrontendAssetConcatenationAndCompression.html)). Pair these patterns with an external build tool — see [typo3-vite-skill](https://github.com/netresearch/typo3-vite-skill). **Fluid 5** (v14) enforces strict ViewHelper typing ([#108148](https://docs.typo3.org/c/typo3/cms-core/main/en-us/Changelog/14.0/Breaking-108148-Fluid50.html)): all VHs in pattern templates must have typed arguments + `render(): string`. **Camino** (v14.1+, [#108539](https://docs.typo3.org/c/typo3/cms-core/main/en-us/Changelog/14.1/Feature-108539-Default-Theme-Camino.html)) is the v14 core's default theme alternative to bootstrap-package — patterns stay theme-agnostic.
 
 These patterns solve common frontend problems that every TYPO3 sitepackage encounters. Instead of building from scratch, use these proven implementations that handle edge cases (scroll performance, reduced-motion, keyboard navigation, ARIA live regions) correctly from the start.
 

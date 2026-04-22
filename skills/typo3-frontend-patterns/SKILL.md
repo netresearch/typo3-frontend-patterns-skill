@@ -1,6 +1,6 @@
 ---
 name: typo3-frontend-patterns
-description: "Reusable frontend patterns for TYPO3 sitepackages (v13/v14 LTS; v14 removes core asset concat/compression #108055 so external build tool required — see [typo3-vite-skill](https://github.com/netresearch/typo3-vite-skill)): sticky header, lazy loading, breadcrumb, language switcher, animations, scroll-to-anchor, skeleton loading, toast notifications, back-to-top. Use when implementing common UI components in TYPO3 v13+/v14 projects with Fluid 4/5, TypeScript, and SCSS. Triggers: Fluid 5 strict-typed VHs, Camino theme, native dialog modal."
+description: "Use when implementing common UI components in TYPO3 v13/v14 LTS sitepackages with Fluid 4/5, TypeScript, and SCSS — sticky header, lazy loading, breadcrumb, language switcher, animations, scroll-to-anchor, skeleton loading, toast notifications, back-to-top. Also triggers for: Fluid 5 strict-typed ViewHelpers, Camino theme, native dialog modal, post-v14 external build tools (#108055; see typo3-vite-skill)."
 ---
 
 # TYPO3 Frontend Patterns

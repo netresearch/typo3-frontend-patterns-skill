@@ -1,5 +1,14 @@
 # TYPO3 Frontend Patterns Skill
 
+> **Deprecated — merged into [`typo3-a11y-skill`](https://github.com/netresearch/typo3-a11y-skill).** This repository is archived and read-only.
+>
+> All nine frontend patterns were absorbed into the `typo3-a11y` skill, which fires at the same trigger moment (implementing a frontend component in a TYPO3 v13/v14 sitepackage). Two skills competing for the same activation were consolidated into one.
+>
+> - The patterns now live at [`typo3-a11y-skill/skills/typo3-a11y/references/`](https://github.com/netresearch/typo3-a11y-skill/tree/main/skills/typo3-a11y/references) and were **improved** during the move (added `prefers-reduced-motion`, `aria-hidden` on decorative icons, JSON-encoded JSON-LD values, `f:image` instead of raw `EXT:` paths) — see [typo3-a11y-skill#12](https://github.com/netresearch/typo3-a11y-skill/pull/12), released as [v1.3.0](https://github.com/netresearch/typo3-a11y-skill/releases/tag/v1.3.0).
+> - The marketplace entry moved accordingly in [claude-code-marketplace#79](https://github.com/netresearch/claude-code-marketplace/pull/79).
+>
+> **Install [`netresearch/typo3-a11y-skill`](https://github.com/netresearch/typo3-a11y-skill) instead.** The content below is kept for historical reference only and is no longer maintained here.
+
 Reusable frontend implementation patterns for TYPO3 v13+ sitepackage development. Each pattern provides a complete implementation with Fluid template, TypeScript plugin, SCSS partial, and accessibility considerations.
 
 ## Installation
